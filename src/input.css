@@ -6,11 +6,20 @@
     * {
         font-family: "Roboto", sans-serif;
     }
+    .bg-custom-color {
+        background-color: #f7f7f7;
+    }
     .custom-body {
         background-color: #f7f7f7;
     }
     .container {
         max-width: 60%;
+    }
+    .choose-us-main:hover .choose-us-rounded {
+        background-color: rgb(234 88 12);
+    }
+    .choose-us-main:hover i {
+        color: #fff;
     }
     @media only screen and (max-width: 768px) {
         .container {
