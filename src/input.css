@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        font-family: "Roboto", sans-serif;
+    }
+    .custom-body {
+        background-color: #f7f7f7;
+    }
+    .container {
+        max-width: 60%;
+    }
+    @media only screen and (max-width: 768px) {
+        .container {
+            max-width: 100%;
+        }
+    }
+    @media only screen and (max-width: 1368px) {
+        .container {
+            max-width: 80%;
+        }
+    }
+}
