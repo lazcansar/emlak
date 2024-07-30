@@ -21,6 +21,14 @@
     .choose-us-main:hover i {
         color: #fff;
     }
+    .cities-hover img {
+        transition: all .5s ease-in-out;
+    }
+    .cities-hover:hover img {
+        transform: scale(1.10);
+        rotate: -2deg;
+        transition: all .5s ease-in-out;
+    }
     @media only screen and (max-width: 768px) {
         .container {
             max-width: 100%;
